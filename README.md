@@ -22,29 +22,6 @@
 
 2022-03-22T21:10:11.886+0800 [INFO]  proxy environment: http_proxy="" https_proxy="" no_proxy=""
 2022-03-22T21:10:11.944+0800 [WARN]  no `api_addr` value specified in config or in VAULT_API_ADDR; falling back to detection if possible, but this value should be manually set
-2022-03-22T21:10:11.945+0800 [INFO]  core: Initializing VersionTimestamps for core
-2022-03-22T21:11:50.214+0800 [INFO]  core: security barrier not initialized
-2022-03-22T21:11:50.227+0800 [INFO]  core: security barrier initialized: stored=1 shares=5 threshold=3
-2022-03-22T21:11:50.238+0800 [INFO]  core: post-unseal setup starting
-2022-03-22T21:11:50.251+0800 [INFO]  core: loaded wrapping token key
-2022-03-22T21:11:50.255+0800 [INFO]  core: Recorded vault version: vault version=1.9.4 upgrade time="2022-03-22 21:11:50.2510909 +0800 +08 m=+98.992013401"
-2022-03-22T21:11:50.256+0800 [INFO]  core: successfully setup plugin catalog: plugin-directory=""
-2022-03-22T21:11:50.257+0800 [INFO]  core: no mounts; adding default mount table
-2022-03-22T21:11:50.266+0800 [INFO]  core: successfully mounted backend: type=cubbyhole path=cubbyhole/
-2022-03-22T21:11:50.267+0800 [INFO]  core: successfully mounted backend: type=system path=sys/
-2022-03-22T21:11:50.268+0800 [INFO]  core: successfully mounted backend: type=identity path=identity/
-2022-03-22T21:11:50.288+0800 [INFO]  core: successfully enabled credential backend: type=token path=token/
-2022-03-22T21:11:50.288+0800 [INFO]  rollback: starting rollback manager
-2022-03-22T21:11:50.289+0800 [INFO]  core: restoring leases
-2022-03-22T21:11:50.294+0800 [INFO]  expiration: lease restore complete
-2022-03-22T21:11:50.301+0800 [INFO]  identity: entities restored
-2022-03-22T21:11:50.301+0800 [INFO]  identity: groups restored
-2022-03-22T21:11:50.302+0800 [INFO]  core: usage gauge collection is disabled
-2022-03-22T21:11:50.306+0800 [INFO]  core: post-unseal setup complete
-2022-03-22T21:11:50.317+0800 [INFO]  core: root token generated
-2022-03-22T21:11:50.318+0800 [INFO]  core: pre-seal teardown starting
-2022-03-22T21:11:50.319+0800 [INFO]  rollback: stopping rollback manager
-2022-03-22T21:11:50.322+0800 [INFO]  core: pre-seal teardown complete
 ```
 
 
