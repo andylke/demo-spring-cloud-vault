@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: demo-spring-cloud-vault
+  profiles:
+    active: demo
+
+  datasource:
+    url: jdbc:h2:mem:${db.name}
+    username: ${db.username}
+    password: ${db.password}
+  h2:
+    console:
+      enabled: true
+  
+  config:
+    import: vault://
+  cloud:
+    vault:
+      enabled: true
+      application-name: spring-cloud-vault
+      host: localhost
+      port: 8200
+      scheme: http
+      token: s.FZTp0c0fJV1D05D1qYDZsAtM
+
+
